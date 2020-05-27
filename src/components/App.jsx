@@ -1,4 +1,4 @@
-var App = () => (
+var App = (props) => (
   <div>
     <nav className="navbar">
       <div className="col-md-6 offset-md-3">
@@ -19,3 +19,10 @@ var App = () => (
 // In the ES6 spec, files are "modules" and do not share a top-level scope
 // `var` declarations will only exist globally where explicitly defined
 export default App;
+
+
+//=> move it to index.js
+// ReactDOM.render(
+//   <App />,
+//   document.getElementById('app')
+// );
